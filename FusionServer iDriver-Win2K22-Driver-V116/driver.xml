@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<DriverPackage Version="V1.1">
+		<Package Date="2022-09-16" File="onboard_driver_Win2K22.iso" Size="97212416" Type="Driver" Version="Win2K22-V116">
+			<OSInfo Arch="x64" KernelVersion="" MajorVersion="10" MatchOsName="2022" Name="Windows Server 2022" Vendor="Microsoft Corporation" spMajorVersion="" spMinorVersion="" MinorVersion="0"/>
+			<DriverList>
+				<Driver Model="nic" Name="mlx5" Path="NIC-CX4-Lx-Win2K22--1-x86_64_silence.exe" Type="NIC" Version="2.70.53000">
+					<Attributes>
+						<ActiveMode>ResetOS</ActiveMode>
+						<MaxUpgradeTime>300</MaxUpgradeTime>
+						<UpgradeEffect>
+							<ImpactType Type="PrimaryServiceImpact">
+								<Descp Lang="en">Self-recoverable functional disruption</Descp>
+								<Descp Lang="zh">可自行恢复的板卡功能的中断</Descp>
+							</ImpactType>
+						</UpgradeEffect>
+					</Attributes>
+					<SupportModel>
+						<Model CardName="SP333" Chip="CX4-Lx" DeviceID="0x1015" FwVer="14.31.1014" MatchingVersion="" SubsystemDeviceID="0xd11b" SubsystemVendorID="0x19e5" VendorID="0x15b3"/>
+					</SupportModel>
+					<Description>
+						<Descp Lang="en">Applied for SP333</Descp>
+						<Descp Lang="zh">适用于 SP333</Descp>
+					</Description>
+					<revision_history>
+						<revision>
+							<version value="2.70.53000"/>
+							<Description>
+								<Descp Lang="en"></Descp>
+								<Descp Lang="zh"></Descp>
+							</Description>
+						</revision>
+					</revision_history>
+				</Driver>
+			</DriverList>
+		</Package>
+	</DriverPackage>
